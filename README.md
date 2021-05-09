@@ -5,20 +5,15 @@ Official repository for hosting the latest versions of the easy mining app!
 
 Two versions are available, main version and "Miner files included" (MFI) version, previously known as "Packed" and "Unpacked" versions.
 
-Using the MFI version is the most direct way to start, but is not recommended, it includes the mining files (PhoenixMiner and xmrig) which can be removed during the download (by an antivirus or similar), rendering the app unusable. 
-
-You will need to re-download and point the app to the new miner files if that's the case, which is the same as using the Main version anyway :) (Main version is now the unpacked version).
+Using the MFI version is very straight forward as it already includes the mining files, however **it is not recommended**, because the mining files can be removed during the download (by an antivirus or similar), rendering the app unusable, you will need to re-download and point the app to the new miner files, which is the same as using the Main version anyway :) (Main version was previously known as the unpacked version).
 
 ## How to setup
 
 Both versions have the same configuration options, the setup is the same for both:
 
 1. Download the latest mining app from releases.
-2. Open it and go to the type of mining selection screen, if you are using the MFI version you will see an "Update miner file location" link, it means the miner files are correctly found (be aware that the mining process can be blocked after by your antivirus). You can choose to update the files or leave it like default, **if you are using the Main version (recommended) continue to step 3.**
-
-![1](https://user-images.githubusercontent.com/83843443/117512936-353a6600-af56-11eb-9f86-b232b80693ac.PNG)
-
-3. You will be asked to select the miner file location, which are **PhoenixMiner.exe for GPU mining or xmrig.exe for CPU mining.**, you need to manually download the files from their official repositories / links, it isn't that hard really :)
+2. Open it and go to the mining hardware screen, if you are using the MFI version go to step 6.
+3. You will be asked to select the miner file location, **PhoenixMiner.exe for GPU mining or xmrig.exe for CPU mining.**, you need to manually download the files from their official repositories / links, it isn't that hard really :)
 
 ![2](https://user-images.githubusercontent.com/83843443/117513094-9bbf8400-af56-11eb-9f5a-baf230ddc3b9.PNG)
 
@@ -31,3 +26,8 @@ Go to **Assets** and download the latest version available for your platform (we
 
 4. Simply point the app to the just downloaded .exe, depending on your mining type (GPU -> PhoenixMiner.exe, CPU -> xmrig.exe).
 5. Follow the UI and enjoy mining !
+6. If you are using the MFI version you will see an "Update miner file location" link, it means the miner files are correctly found and you don't have to do anything else (be aware that the mining process can still be blocked after by your antivirus). You can choose to update the files or leave it like default.
+
+![1](https://user-images.githubusercontent.com/83843443/117512936-353a6600-af56-11eb-9f86-b232b80693ac.PNG)
+
+### The reason why we recommend using the main (unpacked) version against the packed one (MFI) is because if the mining files are ever removed or blocked you will have more control to whitelist the files or re-download. Mining files are stored in temp folders on the MFI version, which can be harder to find and to fix.
