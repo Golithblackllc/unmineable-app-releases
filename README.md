@@ -25,15 +25,16 @@ Both versions have the same configuration and options, the setup is the same for
 
 You can get both files from here:
 
-* PhoenixMiner: https://github.com/PhoenixMinerDevTeam/PhoenixMiner/releases
+* PhoenixMiner: https://phoenixminer.info/downloads/
 * xmrig: https://github.com/xmrig/xmrig/releases
 
-![PhoenixMiner](https://user-images.githubusercontent.com/83843443/117563179-c817f500-b069-11eb-9e5f-32b1b27179d5.png)
+![Screenshot 2021-05-16 195321](https://user-images.githubusercontent.com/83843443/118419082-a083e680-b680-11eb-9ff0-108d871962e4.png)
+
 ![xmrig](https://user-images.githubusercontent.com/83843443/117563186-ccdca900-b069-11eb-8356-de813dd9e089.PNG)
 
-Go to **Assets** and download the latest version available (we currently support Windows 10 x64), after unzipping the files you will have the PhoenixMiner.exe and / or xmrig.exe files.
+Download the latest version available (the app is designed for Windows 10 x64), after unzipping the files **you will have the PhoenixMiner.exe and / or xmrig.exe files.**
 
-4. Simply point the app to the just downloaded .exe (GPU -> PhoenixMiner.exe, CPU -> xmrig.exe).
+4. Simply point the app to the just downloaded .exe **(GPU -> PhoenixMiner.exe, CPU -> xmrig.exe).**
 
 ![2](https://user-images.githubusercontent.com/83843443/117513094-9bbf8400-af56-11eb-9f5a-baf230ddc3b9.PNG)
 
